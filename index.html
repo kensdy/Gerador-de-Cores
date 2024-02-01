@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Cores Aleatórias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gerador de Cores Aleatórias</h1>
+    
+    <label for="numColors">Número de Cores:</label>
+    <input type="number" id="numColors" min="1" max="10" value="5" class="input" />
+    <button id="generate-btn" onclick="gerarCores()">Gerar Cores Aleatórias</button>
+
+    <div id="color-title">Cor Aleatória</div>
+    <div id="color-description">Clique em uma cor para copiar o código de cor HEX para a área de transferência.</div>
+
+    <div id="color-box-container"></div>
+    <div id="selected-color-code"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
